@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
-import AppLayoutComponent from "./components/AppLayoutComponent";
+import AppLayoutComponent from "./components/app-layout/AppLayoutComponent";
 
 function App() {
   return (
     <div className="App">
+      {/* <AppLayoutComponent /> */}
       <AppLayoutComponent />
     </div>
   );
